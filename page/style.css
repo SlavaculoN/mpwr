@@ -214,13 +214,22 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 425px) {
     .main__inner {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 200px;
+        padding-top: 60px;
+    }
+
+    .main__inner h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .main__inner h2 {
+        font-size: 25px;
     }
 }
 
