@@ -221,7 +221,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 60px;
+        padding-top: 30px;
     }
 
     .main__inner h1 {
